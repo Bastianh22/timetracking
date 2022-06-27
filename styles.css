@@ -1,0 +1,42 @@
+html {
+	height: 100%;
+}
+
+body {
+	font: 1em Verdana, Arial, Helvetica, sans-serif;
+		
+	/* fond avec un dégradé de couleur (blanc en haut, gris en bas) */
+	background: -moz-linear-gradient(top, rgb(255, 255, 255), rgb(210, 210, 210));
+	background: -webkit-gradient(linear, left top, left bottom, from(rgb(255, 255, 255)), to(rgb(210, 210, 210)));
+	background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(210, 210, 210));
+}
+
+table, th, td {
+  border:1px solid black;
+  text-align: center;
+}
+#navbar
+{
+    box-shadow: 0 23px 38px 0 rgba(0,0,0,0.31);
+}
+
+#menu 
+{
+    font-size: 20px;
+    font-weight: 600;
+    color: #003d99;
+}
+
+#titrebleu
+{
+	font-weight: bold;
+	font-size: 22px;
+	color: #003d99;
+}
+
+#btn
+{
+	border-style: solid;
+	border-color: #003d99;
+	text-align: center;
+}
